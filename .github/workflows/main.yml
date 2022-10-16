@@ -5,7 +5,7 @@ name: First Cron Job
        # Controls when the workflow will run
 on:
   schedule:
-    - cron: "*/* * * * *"
+    - cron: "52 * * *"
 
 jobs:
   example_comment_pr:
