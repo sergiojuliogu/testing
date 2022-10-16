@@ -20,3 +20,4 @@ jobs:
         with:
           message: |
             Hello world 2 ! :wave:
+            pr_number: 1 # This will comment on pull request #123
