@@ -15,13 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Comment PR
-        uses: thollander/actions-comment-pull-request@v1
-        with:
-          message: |
-            Hello world 2 ! :wave:
-            pr_number: 1 # This will comment on pull request #123
-
       - name: Create comment
         uses: peter-evans/create-or-update-comment@v2
         with:
